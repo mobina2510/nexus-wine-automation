@@ -1,0 +1,30 @@
+# Secrets / local configuration
+config/automate.env
+
+# Downloaded Windows applications
+downloads/
+*.exe
+*.msi
+
+# Logs
+*.log
+logs/
+
+# Environment files
+.env
+*.env
+
+# Keep example configuration
+!config/automate.env.example
+
+# Editors
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.swp
